@@ -26,4 +26,3 @@ WHERE payment.customer_id=customer.customer_id),
 WHERE payment.customer_id = customer.customer_id)  FROM payment
 GROUP BY customer_id
 ORDER BY COUNT(payment_id) DESC;
-a
